@@ -32,8 +32,8 @@ public class Main{
         System.out.println("Отсортированный по убыванию: ");
         bubbleSort(array, ((x, y) -> x < y));
         System.out.println(Arrays.toString(array));
-        bubbleSort(array, ((x, y) -> x > y));
         System.out.println("Отсортированный по возрастанию: ");
+        bubbleSort(array, ((x, y) -> x > y));
         System.out.println(Arrays.toString(array));
     }
 }
